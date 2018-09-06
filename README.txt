@@ -4,17 +4,17 @@
 
 Bienvenue dans cette simulation de trajectoires 3D.
 Ce programme vous permet de simuler une trajectoire 
-dÈterminÈe, ou bien plusieurs alÈatoires. EntrÈe : fichier 
+d√©termin√©e, ou bien plusieurs al√©atoires. Entr√©e : fichier 
 texte "Choix_valeurs.txt", Sortie : figures de la trajectoire 
-et de l'empreinte de la particule de glace sphÈrique ou sous 
+et de l'empreinte de la particule de glace sph√©rique ou sous 
 forme de plaque plane. 
 
-Se confÈrer au mÈmoire de maÓtrise de M.KÈvin IGNATOWICZ
+Se conf√©rer au m√©moire de ma√Ætrise de M.K√©vin IGNATOWICZ
 "Simulation de trajectoires 3D de plaques planes avec
-introduction díun modËle de moment dynamique" dans lequel 
+introduction d‚Äôun mod√®le de moment dynamique" dans lequel 
 se trouvent des explications sur la physique de ce code de 
-calcul, les hypothËses simplificatrices, et d'autres 
-diverses prÈcisions.
+calcul, les hypoth√®ses simplificatrices, et d'autres 
+diverses pr√©cisions.
 
 ************************************************************
 
@@ -22,27 +22,78 @@ Pour utiliser ce code de calcul, vous aurez besoin du programme
 Matlab PROGRAMME_UTILISATEUR.m, ainsi que du document texte 
 Choix_valeurs.txt. 
 
-1Ëre Ètape : Ouvrir le document texte Choix_valeurs.txt et
+1√®re √©tape : Ouvrir le document texte Choix_valeurs.txt et
 suivre les indications. Le remplissage de ce document, 
-permettra de choisir la gÈomËtrie d'Ètude (plaque plane ou 
-sphËre), la mËthode d'interpolation des vitesses, le choix 
-du modËle de moment (uniquement pour la plaque), diverses
-donnÈes gÈomÈtriques et physiques, le temps de simulation, 
+permettra de choisir la g√©om√®trie d'√©tude (plaque plane ou 
+sph√®re), la m√®thode d'interpolation des vitesses, le choix 
+du mod√®le de moment (uniquement pour la plaque), diverses
+donn√©es g√©om√©triques et physiques, le temps de simulation, 
 le pas de temps, l'abscisse du plan de visualisation des 
-traces, le nombre de trajectoires voulues (si vous dÈsirez 
-plusieurs trajectoires, celles-ci seront gÈnÈrÈes
-alÈatoirement), les conditions initiales (dans le cas d'une 
-unique trajectoire), l'Ècoulement (soit un Ècoulement CFD, soit un Ècoulement uniforme)
+traces, le nombre de trajectoires voulues (si vous d√©sirez 
+plusieurs trajectoires, celles-ci seront g√©n√©r√©es
+al√©atoirement), les conditions initiales (dans le cas d'une 
+unique trajectoire), l'√©coulement (soit un √©coulement CFD, 
+soit un √©coulement uniforme)
 
-2Ëme Ètape : Lancer le programme Matlab PROGRAMME_UTILISATEUR.m
-¡ noter que dans le cas d'un grand nombre de trajectoires 
+2√®me √©tape : Lancer le programme Matlab PROGRAMME_UTILISATEUR.m
+√Å noter que dans le cas d'un grand nombre de trajectoires 
 (>100), l'execution du programme prend plusieurs heures.
 
 
-Note important : Afin de vÈrifier le bon fonctionnement du 
+Note important : Afin de v√©rifier le bon fonctionnement du 
 programme, deux cas tests sont disponibles, un pour la 
-plaque plane et un pour la sphËre respectivement dans les 
-dossiers "Cas test plaque" et "Cas test sphËre".
+plaque plane et un pour la sph√®re respectivement dans les 
+dossiers "Cas test plaque" et "Cas test sph√®re".
+
+************************************************************
+************************************************************
+
+
+|**********************************************************|
+|             SIMULATION OF 3D TRAJECTORIES                |
+|**********************************************************|
+
+Welcome in this 3D trajectories simulation program. This 
+program allows you to simulate a trajectory in two ways.
+First, you can choose to study a unique trajectory with 
+deterministic conditions, or you can choose to study many 
+random trajectories, in this case, you also choose the number
+of trajectories. The input of this program is the text file 
+"Choix_valeurs.txt", and the output are the trajectories
+chart and the trajectories path of a spheric or a flat plate
+particle.
+
+Have a look at the master's thesis of M.K√©vin IGNATOWICZ 
+"SIMULATION OF 3D FLAT PLATES TRAJECTORIES WITH INTRODUCTION
+OF A DYNAMIC MOMENT MODEL". In this thesis, you can find, some
+explanations of the physical phenomena, also the simplifying 
+assumptions and other informations.
+
+************************************************************
+
+Let's start using the code. To use this code, you 
+need the MATLAB program "PROGRAMME_UTILISATEUR.m", and the
+text file "Choix_valeurs.txt".
+
+First Step : Open the text file "Choix_valeurs.txt" et follow
+the prompts. In this text file you can choose the geometry of
+the particle (spheric or flat plane), the speed interpolation
+method, the moment model (just for the plat plate), miscellaneous
+geometrical and physical data, the simulation time, the step time,
+the abscissa of the plan that permits to visualiza the trajectories
+footprints. The number of trajectories (random trajectories), the 
+initial state (for a unique trajectory), the type of flow (CFD or 
+uniform)
+
+Second step : Run the Matlab program "PROGRAMME_UTILISATEUR.m"
+If you want to study lots of trajectories (>100), the execution
+time might be a little bit long (few hours).
+
+
+Important point : If you want to check the program is operating
+accurately, two test cases are avalaible, one for the flat plate
+and one for the sphere. The two folders are respectively 
+"Cas test plaque" and "Cas test sph√®re".
 
 
 
